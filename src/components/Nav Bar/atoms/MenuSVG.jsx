@@ -30,10 +30,10 @@ function MenuSVG({svgClass}) {
           y2="36"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="2"
         />
         <line
           x1="16"
@@ -42,10 +42,10 @@ function MenuSVG({svgClass}) {
           y2="46"
           fill="none"
           stroke="#fff"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
+          strokeWidth="2"
         />
       </g>
     </svg>

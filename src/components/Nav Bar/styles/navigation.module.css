@@ -10,7 +10,7 @@
 .nav__list {
     list-style-type: none;
     display: flex;
-  align-items: center;
+    align-items: center;
     justify-content: space-between;
     margin: 2em;
 }
@@ -31,7 +31,27 @@
 .menu{
     display: none;
 }
-
+.search__button{
+    background-color: #fff;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+.search__input{
+    border: none;
+    padding: .5em;
+    border-radius: 5px; 
+}
 
 
 @media screen and (max-width: 600px) {

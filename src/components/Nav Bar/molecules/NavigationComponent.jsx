@@ -3,10 +3,10 @@ import styles from "../styles/navigation.module.css";
 import NavLogoSVG from "../atoms/NavLogoSVG";
 import LinkComponent from "../atoms/LinkComponent";
 import MenuSVG from "../atoms/MenuSVG";
-import { useNavigate } from "react-router-dom";
+import InputComponent from "../../Login Component/atoms/InputComponent";
+import ButtonComponent from "../../Login Component/atoms/ButtonComponent";
 
 function NavigationComponent() {
-  const navigate = useNavigate();
   return (
     <div>
       <nav className={styles.nav}>
@@ -19,21 +19,17 @@ function NavigationComponent() {
           </li>
           <li>
             {" "}
-            {/* Link */}{" "}
-            <LinkComponent
-              onClick={() => {
-                navigate("newsfeed");
-              }}
-              text={"News Feed"}
-            />
+            {/* Link */} <LinkComponent text={"News Feed"} />
           </li>
           <li>
-            {" "}
-            <LinkComponent text={"Profile"} />
-          </li>
-          <li>
-            {" "}
-            <LinkComponent text={"Contact"} />
+            <div className={styles.search}>
+              <InputComponent
+                inputClass={styles.search__input}
+                inputType={"search"}
+                placeHolder={"Search.."}
+              />{" "}
+              <ButtonComponent btnClass={styles.search__button} text={"Go!"} />
+            </div>
           </li>
         </ul>
       </nav>
