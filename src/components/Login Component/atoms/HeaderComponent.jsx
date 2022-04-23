@@ -1,6 +1,6 @@
 import React from 'react'
 
-function HeaderComponent({text}) {
+const  HeaderComponent = ({text}) =>  {
   return (
     <h1>{text}</h1>
   )

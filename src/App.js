@@ -1,21 +1,21 @@
-import "./App.css";
-import Home from "./components/Home page/molecules/Home";
-import LoginPage from "./components/Login Component/molecules/LoginPage";
-import NavigationComponent from "./components/Nav Bar/molecules/NavigationComponent";
-import FeaturedNews from "./components/News Feed Page/atoms/FeaturedNews";
-import News from "./components/News Feed Page/atoms/News";
-import NewsFeed from "./components/News Feed Page/molecules/NewsFeed";
+import Home from '../src/Pages/Home'
+import NavigationComponent from './Pages/NavigationComponent';
+import LoginPage from './Pages/LoginPage';
 
-function App() {
+
+
+const  App = () => {
   return (
-    <div className="App">
-      <NavigationComponent />
-      <div className="home">
-        <Home />
+    <>
+        <div className="App">
+      <div>
+        <LoginPage />
       </div>
-
-      {/* <LoginPage/> */}
+       {/* <Home/> */}
     </div>
+  
+    </>
+ 
   );
 }
 

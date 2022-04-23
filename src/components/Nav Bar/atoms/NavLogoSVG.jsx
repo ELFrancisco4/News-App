@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../styles/navigation.module.css';
-function NavLogoSVG() {
+const NavLogoSVG = () => {
   return (
     <svg
     className={styles.nav__logo}
