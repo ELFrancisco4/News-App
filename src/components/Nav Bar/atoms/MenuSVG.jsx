@@ -1,8 +1,9 @@
 import React from "react";
 
-function MenuSVG({svgClass}) {
+function MenuSVG({svgClass, onClick}) {
   return (
     <svg
+      onClick={onClick}
       className={svgClass}
       width="72px"
       height="72px"
@@ -21,7 +22,7 @@ function MenuSVG({svgClass}) {
           y1="26"
           y2="26"
           fill="none"
-          stroke="#fff"
+          stroke="#ee3f0a"
         />
         <line
           x1="16"
@@ -29,7 +30,7 @@ function MenuSVG({svgClass}) {
           y1="36"
           y2="36"
           fill="none"
-          stroke="#fff"
+          stroke="#ee3f0a"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeMiterlimit="10"
@@ -41,7 +42,7 @@ function MenuSVG({svgClass}) {
           y1="46"
           y2="46"
           fill="none"
-          stroke="#fff"
+          stroke="#ee3f0a"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeMiterlimit="10"

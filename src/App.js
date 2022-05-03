@@ -1,22 +1,17 @@
-import Home from '../src/Pages/Home'
-import NavigationComponent from './Pages/NavigationComponent';
-import LoginPage from './Pages/LoginPage';
-
-
-
-const  App = () => {
+import NavigationComponent from "./Pages/NavigationComponent";
+import LoginPage from "./Pages/LoginPage";
+import HomePage from "./Pages/HomePage";
+import Home from "../src/components/Home page/molecules/Home";
+import { Routes, Route } from "react-router-dom";
+import NewsFeed from "./Pages/NewsFeed";
+const App = () => {
   return (
     <>
-        <div className="App">
-      <div>
-        <LoginPage />
+      <div className="App">
+        <NavigationComponent />
       </div>
-       {/* <Home/> */}
-    </div>
-  
     </>
- 
   );
-}
+};  
 
 export default App;
