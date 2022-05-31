@@ -82,7 +82,7 @@
 /* Mobile view of NavBar */
 @media screen and (max-width: 600px) {
     .nav {
-        width: 90vw;
+        width: 100vw;
         justify-content: space-between;
         margin: 0 auto;
         align-items: center;
@@ -94,6 +94,10 @@
         display: block;
         min-width: 100px;
         margin-left: -70px;
+    }
+    .nav__logout{
+        background-color: orange;
+        color: white;
     }
 
     .menu {
@@ -143,5 +147,11 @@
         background-color: orange;
         color: #fff;
 
+    }
+}
+
+@media screen and (orientation: landscape){
+    .nav__list{
+        list-style-type: none;
     }
 }
