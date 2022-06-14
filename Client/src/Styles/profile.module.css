@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    justify-self: start;
+    padding: 1em;
+    align-items: center;
+    border: dashed 2px orange;
+    border-radius: 10px;
+}
+
+.header{
+    word-spacing: 10px;
+    letter-spacing: 20px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;    
+    margin: 10px;
+}
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+    border-radius: 20px;
+}
+.profile_details{
+    margin-left: 20px;
+}
+
+
