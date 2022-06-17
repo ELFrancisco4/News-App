@@ -6,7 +6,7 @@ import { context } from "../Models/context";
 
 const NewsFeed = () => {
   const articles = useContext(context);
-  const headline = articles.slice(9);
+  const headline = articles.slice(19);
   return (
     <>
       <div className={styles.news__feed}>

@@ -14,7 +14,7 @@ const NewsAPI = () => {
         "http://127.0.0.1:5000/api"
       );
       setArticles(res.data.articles);
-      console.log(res)
+      console.log(res.data.articles)
     };
     
     getNewsData();

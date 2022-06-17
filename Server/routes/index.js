@@ -19,6 +19,7 @@ router.get("/", async(req, res) => {
     res.status(200).json(apiRes.body);
   } catch (error) {
     res.status(500).json(error)
+    
   }
 });
 
