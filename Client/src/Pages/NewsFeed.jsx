@@ -13,17 +13,23 @@ const NewsFeed = () => {
         <div className={styles.container}>
           {headline.map(({ title, urlToImage, description, url }) => {
             return (
-              <FeaturedNews
-                title={title}
-                urlToImage={urlToImage}
-                description={description}
-                url={url}
-              />
+              <div key={title} className={styles.news_headline}>
+                <FeaturedNews
+                  title={title}
+                  urlToImage={urlToImage}
+                  description={description}
+                  url={url}
+                />
+              </div>
             );
           })}
           <div className={styles.news__grid}>
             {articles.map(({ title, description, url }) => {
-              return <News title={title} description={description} url={url} />;
+              return (
+                <div key={title} className={styles.news_listItem}>
+                  <News title={title} description={description} url={url} />
+                </div>
+              );
             })}
           </div>
         </div>

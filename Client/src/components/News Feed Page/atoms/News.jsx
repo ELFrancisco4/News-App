@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../styles/news-feed.module.css'
-const News = ({title,description, url}) => {
+const News = ({title,description, url,key}) => {
   return (
-    <div className={styles.news}>
+    <div className={styles.news} key={key}>
       <div className={styles.news__header}>
         <h3 className={styles.news__title}>{title}</h3>
       </div>
