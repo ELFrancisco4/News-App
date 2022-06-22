@@ -15,7 +15,7 @@ Still in progress, new features and functionalities to be added:
 - Page animation 
 
 # Clone
-clone with "git clone <repo>"
+clone with "git clone https://github.com/ELFrancisco4/News-App.git"
   
 # Usage
 run in command line with
