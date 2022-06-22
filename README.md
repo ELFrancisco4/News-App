@@ -13,6 +13,7 @@ Still in progress, new features and functionalities to be added:
 - Database to store users who have created accounts 
 - Persistence of user data
 - Page animation 
+- Fix proxy server errors
 
 # Clone
 clone with "git clone https://github.com/ELFrancisco4/News-App.git"
